@@ -1,0 +1,208 @@
+/******MEDIA QUERIES******/
+
+/* nav bar and footer responsive design*/
+
+@media screen and (max-width: 1045px) {
+    
+	/*quote*/
+/*welcome quote*/
+
+.quote_background{
+	
+	max-width:825px;
+	margin-top:30px;
+	margin-left:30px;
+	margin-right:30px;
+	
+}
+
+.welcome_quote{
+	
+	font-size: 27px;
+	padding:3px;
+
+}
+
+/*HEADING Welcome Hover*/
+.welcome_hover{
+	font-size:58px;
+	margin-top: 60px;
+	
+}
+
+		/*footer*/
+
+/*Footer styling*/
+
+#footer{
+
+	height:100px;	
+
+}
+
+#social_networks ul{
+
+	margin-right: 10px;
+		
+}
+
+#social_networks a{
+
+	margin-left:10px;
+	
+	}
+
+#say_hello{
+	
+	left:10px;
+
+}
+
+
+									}
+
+
+@media screen and (max-width: 1009px) {
+
+	/*nav*/
+
+.navbar-nav li a{
+	margin-left:50px;
+	margin-right:30px;
+	font-size: 12px;
+}
+
+	/*footer*/
+#footer{
+	position: relative;
+	top:460px;
+	height:150px;
+}
+
+	/*about_me*/
+
+/*FLEXBOX ABOUT_ME*/
+
+.bio_flex_item1{
+	margin-top: 50px;
+	margin-left:50px;
+}
+
+.bio_flex_item2{
+
+	
+	height:460px;
+	width:550px;
+	order:-1;
+
+
+
+}
+.bio_text_block{
+
+	padding:20px;
+
+
+}
+
+
+
+
+										}
+
+
+@media screen and (max-width: 906px) {
+
+.navbar-nav li a{
+	
+	font-size: 13px;
+	margin-left:15px;
+	margin-right:40px;
+
+
+}
+
+
+
+					}
+
+
+
+@media screen and (max-width: 973px) {
+
+.about_me_flex_container{
+	
+	width:100%;
+	
+
+} 
+
+					}
+
+
+
+@media screen and (max-width: 575px) {
+
+/*About me section*/
+
+/*FLEXBOX ABOUT_ME*/
+
+.bio_flex_item2{
+
+	background-image: url("images/pinned2.png");
+	width:400px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.bio_image{
+	background-image: url("images/bio_image2.png");
+	
+	width:400px;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+.bio_text_block{
+	width:300px;
+}
+
+
+
+
+
+.intro_bio {
+	font-weight: bold;
+	margin-bottom:3.5px ;
+	font-size: 15px;
+	text-align: center;
+}
+
+.main_text_bio{
+	font-size: 13px;
+	text-align: center;
+	min-width:200px;
+	
+
+}
+
+
+
+.contact_button{
+	height:40px;
+	width:150px;
+	border:solid 5px #ED4A62;
+	background-color: #ffffff;
+	border-radius: 5px;
+	display: block;
+
+
+	
+
+}
+.contact_button h4{
+	margin:auto;
+	color:#ED4A62;
+
+}

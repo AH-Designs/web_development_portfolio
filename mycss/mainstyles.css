@@ -1,0 +1,550 @@
+
+
+.wrapper{
+	width:100%;
+	margin:auto;
+	height:100vh -100px;
+	z-index: -10;
+
+	
+	
+}
+
+/*nav bar styling*/
+.navbar{
+	height:100px;
+	width:100%;
+	background-color: #ffffff;
+	z-index: 3;
+
+}
+
+.nav_container{
+	height:100px;
+	width:100%;
+}
+
+#bs-example-navbar-collapse-1{
+	height:100px;
+	width:1000px;
+	margin:auto;
+	position: relative;
+	top:20px;
+}
+
+.navbar-nav li a{
+	margin-left:50px;
+	margin-right:40px;
+	font-size: 14px;
+	color:#000000;
+	padding-bottom:5px;
+}
+
+/*collapse button styling*/
+
+.navbar-toggle{
+	width:45px;
+	height:45px;
+
+}
+
+.navbar-toggle{
+	background-color: #ffffff;
+	z-index: 4;
+} 
+
+/*:HOVER*/
+
+/*main nav hover styling*/
+nav ul li a:hover{
+	text-decoration: none;
+	border-bottom: solid 3px #ED4A62;
+}
+
+/*Footer hover styling*/
+.contact_link:hover{
+	text-decoration: none;
+	border-bottom: solid 1px #ffffff;
+	}
+
+#social_networks a:hover{
+	border-bottom: solid 1px #ED4A62;
+}
+
+
+/*Main section on index.html*/
+
+.main_welcome{
+	height: 680px;
+	position: relative;
+	bottom:100px;
+}
+
+#main_crayons_image{
+	width:100%;
+	height:680px;
+	position:relative;
+	top:71px;
+	display: block;
+	z-index: -2;
+}
+
+
+/*Logo*/
+
+.logo_div{
+	z-index:1 ;
+	position: relative;
+	bottom:500px;
+	
+}
+
+.logo_image{
+	z-index:1;
+	display: block;
+	opacity: 0.8;
+	
+	margin: 0 auto;
+	
+}
+
+/*welcome quote*/
+
+.quote_background{
+	z-index: 1;
+	background-color: black;
+	max-width:950px;
+	margin-top:30px;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 0.8;
+	border-radius: 4px;
+}
+
+.welcome_quote{
+	z-index: 1;
+	color:white;
+	font-size: 35px;
+	text-align: center;
+	padding:5px;
+}
+
+/*HEADING Welcome Hover*/
+.welcome_hover{
+	font-size:85px;
+	color:#ffffff;
+	text-align: center;
+	z-index: 1;
+	margin-top: 40px;
+	padding-left: 35px;
+}
+
+/*About me section*/
+
+.about_me{
+	min-width:100%;
+	height:680px;
+	position:relative;
+	bottom:60px;
+	display: block;
+}
+
+
+
+/*FLEXBOX ABOUT_ME*/
+
+.about_me_flex_container{
+	display:flex;
+	width:950px;
+	justify-content:center;
+	margin-left:auto;
+	margin-right:auto;
+	flex-wrap:wrap;
+	flex-direction:row;
+	margin-top: 65px;
+	
+
+} 
+
+.flex_item{
+	height:450px;
+	width:470px;
+	padding-left:-100px;
+	padding-right:-100px;
+	flex-self:center;
+	
+	}
+
+
+
+
+.bio_flex_item2{
+
+	
+
+	background-image: url("images/pinned.png");
+	background-repeat: no-repeat;
+
+
+}
+
+
+
+
+
+.bio_image{
+	background-image: url("images/bio_image.png");
+	z-index: 5;
+	background-repeat: no-repeat;
+	
+}
+
+.bio_text_block{
+
+
+
+	padding-top: 18px;
+	width:410px;
+	display: block;
+	margin: auto;
+	padding-left:55px;
+	
+
+}
+.bio_text_block h3{
+	margin-bottom: ;
+}
+
+
+
+.intro_bio {
+	font-weight: bold;
+	margin-bottom:3.5px ;
+	font-size: 18px;
+	text-align: center;
+}
+
+.main_text_bio{
+	font-size: 15px;
+	text-align: center;
+
+
+	
+
+}
+
+
+
+.contact_button{
+	height:40px;
+	width:150px;
+	border:solid 5px #ED4A62;
+	background-color: #ffffff;
+	border-radius: 5px;
+	display: block;
+
+
+	
+
+}
+.contact_button h4{
+	margin:auto;
+	color:#ED4A62;
+
+}
+
+
+/*About me light blue gradient background*/
+
+#blue_gradient{
+	background-image: 
+		linear-gradient(#429C9D, #FFFFFF);
+		z-index: -2;
+
+}
+
+/*H2 PAGE HEADINGS*/
+h2{
+	font-size:32px;
+	color:#ffffff;
+	z-index: 1;
+	border-bottom: solid 3px #ffffff;
+	width:200px;
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:30px;
+
+}
+
+h3{
+	color:#EF8C30;
+	font-weight:bold;
+	font-size: 18px;
+
+}
+
+/*flex container button*/
+
+.button_flex_contianer{
+	display: flex;
+
+	
+}
+
+.contact_button{
+	margin: auto;
+}
+
+/*PORTFOLIO STYLING */
+
+
+
+.intro_portfolio{
+	width:;
+}
+
+.portfolio_flex_container{
+	display: flex;
+	justify-content:center;
+	flex-wrap:wrap;
+	flex-direction:row;
+	margin-top: 65px;
+
+}
+
+.portfolio_flex_item{
+	margin:15px;
+	padding:20px;
+	align-items:center;
+	text-align: center;
+	width:370px;
+}
+
+.portfolio_image{
+	
+}
+
+/*portfolio_crayon_image_reposition*/
+#main_crayons_image1{
+	position: relative;
+	bottom:20px;
+	width:100%;
+	height:680px;
+	position:relative;
+	top:-30px;
+	display: block;
+	z-index: -2;
+}
+
+.my_portfolio{
+	position: relative;
+	bottom:366px;
+	
+}
+
+.portfolio{
+	position: relative;
+	top:230px;
+}
+
+/*portfolio quotes styling and arrow*/
+
+div.portfolio_quote_div1{
+	width:100%;
+	text-align: center;
+	display: block;
+	position: relative;
+	bottom:450px;
+}
+
+div.portfolio_quote_div2{
+	width:100%;
+	text-align: center;
+	display:block;
+	position: relative;
+	bottom:150px;
+}
+p.quote1 {
+	color:#ffffff;
+	width:90%;
+	z-index: 5;
+	font-size: 45px;
+	font-weight: bold;
+	margin:0 auto;
+	text-shadow: 3px 2px 3px rgba(150, 150, 150, 1);
+}
+p.quote2{
+	color:#ffffff;
+	width:90%;
+	z-index: 5;
+	font-size: 45px;
+	font-weight: bold;
+	margin:0 auto;
+	text-shadow: 3px 2px 3px rgba(150, 150, 150, 1);
+	
+}
+
+div.arrow_div{
+	width:100%;
+	text-align: center;
+	display:block;
+	width:100%;
+	position: relative;
+	bottom:420px;
+}
+
+.arrow_div img{
+	
+	width:;
+	z-index: 5;
+	
+	margin:0 auto;
+}
+
+/*contact form page*/
+
+.intro_contact{
+	height: 645px;
+}
+
+
+
+
+.note_paper_image {
+
+	background-image: url("images/paper.png");
+	background-repeat: no-repeat;
+	z-index: 5;
+	height:500px;
+	width: 700px;
+	position:relative;
+	bottom:590px;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+
+
+}
+
+.say_hello{
+	position: relative;
+	bottom:1200px;
+	z-index: 6;
+	
+
+}
+
+/*styling my form*/
+
+label{
+	font-size:17px;
+
+}
+
+.form{
+	position: relative;
+	top:100px;
+	left:25px;
+}
+
+.input_name, .input_email{
+	height: 30px;
+	width:260px;
+	border:solid 2px #CDD801;
+	background-color: #ffffff;
+	margin: 10px;
+	} 
+
+.input_message{
+	height: 175px;
+	width:260px;
+	border:solid 2px #CDD801;
+	background-color: #ffffff;
+	position: relative;
+	right:25;
+	position: relative;
+	right:15px;
+	margin:5px;
+
+}
+
+.send_button{
+	height:40px;
+	width:140px;
+	margin-top:10px;
+	background-color: #ffffff;
+	border:solid 4px #ED4A62;
+	color:#ED4A62;
+	border-radius: 4px;
+	font-weight: bold;
+} 
+
+.message_box{
+	position: relative;
+	bottom:152px;
+	right:26px;
+	
+}
+
+/*Footer styling*/
+
+#footer{
+	background-color: black;
+	height:100px;
+		z-index: 10;
+
+}
+
+#say_hello{
+	position: relative;
+	top:45px;
+	left:69px;
+
+}
+
+#social_networks{
+	position: relative;
+	top:15px;
+}
+
+#envelope_icon{
+	font-size: 17px;
+}
+
+
+
+ul li.twitter p{
+	margin-right: -4px;
+}
+
+#say_hello p{
+	font-weight: bold;
+	color: #ffffff;
+	font-size:15px;
+}
+
+.contact_link{
+	color:#ED4A62;
+	font-size: 15px;
+}
+
+#social_networks ul{
+
+	text-align: right;
+	margin-right: 70px;
+	list-style: none;
+	
+}
+
+
+#social_networks a{
+	text-decoration: none;
+	color:#ffffff;
+	font-weight: bold;
+	font-size: 15px;
+	margin-left:20px;
+	
+	}
+
+
