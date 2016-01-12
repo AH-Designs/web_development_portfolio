@@ -112,7 +112,7 @@ nav ul li a:hover{
 
 .quote_background{
 	z-index: 1;
-	background-color: pink;
+	background-color: #000000;
 	max-width:950px;
 	margin-top:30px;
 	margin-left: auto;
@@ -162,12 +162,13 @@ nav ul li a:hover{
 	flex-wrap:wrap;
 	flex-direction:row;
 	margin-top: 65px;
+	height:500px;
 	
 
 } 
 
 .flex_item{
-	height:450px;
+	height:480px;
 	width:470px;
 	padding-left:-100px;
 	padding-right:-100px;
@@ -301,7 +302,7 @@ h3{
 
 
 .intro_portfolio{
-	width:;
+	height:680px;
 }
 
 .portfolio_flex_container{
@@ -339,7 +340,7 @@ h3{
 
 .my_portfolio{
 	position: relative;
-	bottom:366px;
+	bottom:52px;
 	
 }
 
@@ -363,7 +364,7 @@ div.portfolio_quote_div2{
 	text-align: center;
 	display:block;
 	position: relative;
-	bottom:150px;
+	bottom:180px;
 }
 p.quote1 {
 	color:#ffffff;
@@ -391,7 +392,7 @@ div.arrow_div{
 	display:block;
 	width:100%;
 	position: relative;
-	bottom:420px;
+	bottom:360px;
 }
 
 .arrow_div img{
@@ -493,6 +494,33 @@ label{
 	background-color: black;
 	height:100px;
 		z-index: 10;
+	position: relative;
+	top:0px;
+
+}
+
+.contact_footer{
+
+	position: relative;
+	bottom:0px;
+	background-color: black;
+	height:100px;
+		z-index: 10;
+
+
+}
+
+.portfolio_footer{
+
+	position: relative;
+	top:270px;
+	background-color: black;
+	
+		z-index: 10;
+	height:150px;
+		z-index: 10;
+	position: relative;
+	
 
 }
 

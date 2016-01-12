@@ -61,6 +61,16 @@
 
 									}
 
+@media screen and (max-width: 1032px) {
+
+.portfolio{
+	position:relative;
+	top:300px;
+}
+
+
+
+	}
 
 @media screen and (max-width: 1009px) {
 
@@ -75,7 +85,7 @@
 	/*footer*/
 #footer{
 	position: relative;
-	top:460px;
+	top:450px;
 	height:150px;
 }
 
@@ -140,8 +150,62 @@
 					}
 
 
+@media screen and (max-width: 990px) {
+.contact_footer{
 
-@media screen and (max-width: 575px) {
+	
+	height:150px;
+		
+
+
+}
+
+	        }
+
+
+@media screen and (max-width: 745px) {
+
+/*Postioning my portflio on smaller devices*/
+.portfolio{
+	position:relative;
+	top:390px;
+}
+
+.portfolio_footer{
+
+	position: relative;
+	top:460px;
+	background-color: black;
+	
+		z-index: 10;
+	height:150px;
+		z-index: 10;
+	position: relative;
+	
+
+}
+
+}
+
+
+
+@media screen and (max-width: 622px) {
+
+/*Postioning my portflio on smaller devices*/
+.portfolio{
+	position:relative;
+	top:440px;
+}
+
+
+
+	@media screen and (max-width: 745px) {
+
+/*Postioning my portflio on smaller devices*/
+.portfolio{
+	position:relative;
+	top:470px;
+}
 
 /*About me section*/
 
@@ -206,3 +270,10 @@
 	color:#ED4A62;
 
 }
+
+
+
+
+}
+
+
