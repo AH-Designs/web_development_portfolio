@@ -163,12 +163,20 @@
 	        }
 
 
-@media screen and (max-width: 745px) {
+
+
+
+
+
+
+
+
+	@media screen and (max-width: 745px) {
 
 /*Postioning my portflio on smaller devices*/
 .portfolio{
 	position:relative;
-	top:390px;
+	top:470px;
 }
 
 .portfolio_footer{
@@ -183,28 +191,6 @@
 	position: relative;
 	
 
-}
-
-}
-
-
-
-@media screen and (max-width: 622px) {
-
-/*Postioning my portflio on smaller devices*/
-.portfolio{
-	position:relative;
-	top:440px;
-}
-
-
-
-	@media screen and (max-width: 745px) {
-
-/*Postioning my portflio on smaller devices*/
-.portfolio{
-	position:relative;
-	top:470px;
 }
 
 /*About me section*/
@@ -274,6 +260,116 @@
 
 
 
+/*contact form styling for smaller devices*/
+
+/*contact form page*/
+
+.intro_contact{
+	height: 645px;
+}
+
+div.form{
+	width:370px;
 }
 
 
+div.note_paper_image {
+
+	background-image: url("images/paper2.png");
+	
+	height:500px;
+	width: 400px;
+	position:relative;
+	bottom:590px;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	right:50px;
+
+
+}
+
+.say_hello{
+	position: relative;
+	bottom:1200px;
+	z-index: 6;
+	
+
+}
+
+/*styling my form*/
+
+label{
+	font-size:13px;
+
+}
+
+div.form{
+	position: relative;
+	top:77px;
+	left:82px;
+	width:360px;
+	margin-right:0;
+}
+
+.form_div{
+	width:500px;
+	margin:0 auto;
+}
+
+.input_name, .input_email{
+	height: 30px;
+	width:170px;
+	border:solid 2px #CDD801;
+	background-color: #ffffff;
+	margin: 10px;
+	} 
+
+.input_message{
+	height: 175px;
+	width:170px;
+	border:solid 2px #CDD801;
+	background-color: #ffffff;
+	position: relative;
+	right:25px;
+	position: relative;
+	right:12px;
+	margin:5px;
+
+}
+
+.send_button{
+	height:40px;
+	width:140px;
+	margin-top:10px;
+	background-color: #ffffff;
+	border:solid 4px #ED4A62;
+	color:#ED4A62;
+	border-radius: 4px;
+	font-weight: bold;
+} 
+
+.message_box{
+	position: relative;
+	bottom:152px;
+	right:18px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 622px) {
+
+/*Postioning my portflio on smaller devices*/
+.portfolio{
+	position:relative;
+	top:440px;
+}
