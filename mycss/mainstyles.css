@@ -15,13 +15,15 @@
 	height:100px;
 	width:100%;
 	background-color: #ffffff;
-	z-index: 3;
+	z-index: 11;
+
 
 }
 
 .nav_container{
 	height:100px;
 	width:100%;
+	
 }
 
 #bs-example-navbar-collapse-1{
@@ -30,6 +32,7 @@
 	margin:auto;
 	position: relative;
 	top:20px;
+	
 }
 
 .navbar-nav li a{
@@ -38,6 +41,28 @@
 	font-size: 14px;
 	color:#000000;
 	padding-bottom:5px;
+}
+
+/*drop_down styling*/
+
+#bs-example-navbar-collapse-1{
+
+    height: 200px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    top: 20px;
+    background-color: #ffffff;
+
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #000000;
+    text-align: center;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #ffffff;
 }
 
 /*collapse button styling*/
@@ -161,7 +186,7 @@ nav ul li a:hover{
 	margin-right:auto;
 	flex-wrap:wrap;
 	flex-direction:row;
-	margin-top: 65px;
+	margin-top: 34px;
 	height:500px;
 	
 
@@ -315,16 +340,52 @@ h3{
 }
 
 .portfolio_flex_item{
+	display: flex;
+	flex-direction:column;
 	margin:15px;
 	padding:20px;
-	align-items:center;
+	
 	text-align: center;
 	width:370px;
+
 }
 
 .portfolio_image{
 	
 }
+
+/*flex styling for portfolio explore buttons*/
+.explore_button{
+	margin-top: auto;
+	align-self:center;
+	
+}
+
+/*styling explore buttons*/
+
+.explore_button{
+
+	height:30px;
+	width:130px;
+	
+	background-color: #ffffff;
+	border:solid 3px #ED4A62;
+	color:#ED4A62;
+	border-radius: 3px;
+	font-weight: bold;
+
+}
+
+	
+
+
+
+
+
+
+
+
+
 
 /*portfolio_crayon_image_reposition*/
 #main_crayons_image1{
@@ -373,7 +434,7 @@ p.quote1 {
 	font-size: 45px;
 	font-weight: bold;
 	margin:0 auto;
-	text-shadow: 3px 2px 3px rgba(150, 150, 150, 1);
+	text-shadow: 2px 2px 2px rgba(33, 33, 33, 1);
 }
 p.quote2{
 	color:#ffffff;
@@ -382,7 +443,7 @@ p.quote2{
 	font-size: 45px;
 	font-weight: bold;
 	margin:0 auto;
-	text-shadow: 3px 2px 3px rgba(150, 150, 150, 1);
+	text-shadow: 2px 2px 2px rgba(33, 33, 33, 1);
 	
 }
 
@@ -402,6 +463,13 @@ div.arrow_div{
 	
 	margin:0 auto;
 }
+
+
+
+
+
+
+
 
 /*contact form page*/
 
