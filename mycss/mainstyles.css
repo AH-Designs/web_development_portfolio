@@ -85,7 +85,11 @@ nav ul li a:hover{
 	border-bottom: solid 1px #ffffff;
 	}
 
-#social_networks a:hover{
+#social_networks a:hover.github_text{
+	border-bottom: solid 1px #ED4A62;
+}
+
+#social_networks a:hover.twitter_text{
 	border-bottom: solid 1px #ED4A62;
 }
 
@@ -96,6 +100,10 @@ a.mail_to_link{
  a:hover.mail_to_link{
 	text-decoration: none;
 
+}
+
+a:hover.image_link{
+	text-decoration: none;
 }
 /*Main section on index.html*/
 
