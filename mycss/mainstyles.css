@@ -89,7 +89,14 @@ nav ul li a:hover{
 	border-bottom: solid 1px #ED4A62;
 }
 
+a.mail_to_link{
+	color:#ED4A62; 	
+}
 
+ a:hover.mail_to_link{
+	text-decoration: none;
+
+}
 /*Main section on index.html*/
 
 .main_welcome{
