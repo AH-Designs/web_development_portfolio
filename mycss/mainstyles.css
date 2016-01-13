@@ -21,23 +21,16 @@
 }
 
 .nav_container{
-	height:100px;
+	height:100%;
 	width:100%;
 	
 }
 
-#bs-example-navbar-collapse-1{
-	height:100px;
-	width:1000px;
-	margin:auto;
-	position: relative;
-	top:20px;
-	
-}
+
 
 .navbar-nav li a{
-	margin-left:50px;
-	margin-right:40px;
+	margin-left:35px;
+	margin-right:35px;
 	font-size: 14px;
 	color:#000000;
 	padding-bottom:5px;
@@ -48,7 +41,7 @@
 #bs-example-navbar-collapse-1{
 
     height: 200px;
-    width: 100%;
+    width: 75%;
     margin: auto;
     position: relative;
     top: 20px;
