@@ -294,7 +294,6 @@ h2{
 	font-size:32px;
 	color:#ffffff;
 	z-index: 1;
-	border-bottom: solid 3px #ffffff;
 	width:200px;
 	text-align: center;
 	margin-left:auto;
@@ -302,6 +301,27 @@ h2{
 	padding-top:30px;
 
 }
+
+
+h2:after {
+  content:'';
+  display:block;
+  height:0.2em;
+  width:35%;
+  margin:auto;
+  border-bottom:solid ;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 h3{
 	color:#EF8C30;
