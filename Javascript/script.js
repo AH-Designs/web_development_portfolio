@@ -3,11 +3,12 @@
 
     $('.animsition').animsition({
 
-    inClass: 'fade-in-down',
-    outClass: 'fade-out-down',
+    inClass: 'zoom-in',
+    outClass: 'zoom-out',
     inDuration: 1500,
-    outDuration: 1500,
+    outDuration: 800,
+    linkElement: '.animsition-link'
 
-    linkElement: 'nav a'
+
 
     });
