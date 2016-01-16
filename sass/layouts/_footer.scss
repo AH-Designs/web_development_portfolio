@@ -1,0 +1,86 @@
+/*Footer styling*/
+
+#footer{
+	background-color: black;
+	height:150px;
+		z-index: 10;
+	position: relative;
+	top:0px;
+
+}
+
+.contact_footer{
+
+	position: relative;
+	bottom:0px;
+	background-color: black;
+	height:150px;
+		z-index: 10;
+
+
+}
+
+.portfolio_footer{
+
+	position: relative;
+	top:270px;
+	background-color: black;
+	
+		z-index: 10;
+	height:150px;
+		z-index: 10;
+	position: relative;
+	
+
+}
+
+#say_hello{
+	position: relative;
+	top:45px;
+	left:69px;
+
+}
+
+#social_networks{
+	position: relative;
+	top:15px;
+}
+
+#envelope_icon{
+	font-size: 17px;
+}
+
+
+
+ul li.twitter p{
+	margin-right: -4px;
+}
+
+#say_hello p{
+	font-weight: bold;
+	color: #ffffff;
+	font-size:15px;
+}
+
+.contact_link{
+	color:#ED4A62;
+	font-size: 15px;
+}
+
+#social_networks ul{
+
+	text-align: right;
+	margin-right: 70px;
+	list-style: none;
+	
+}
+
+
+#social_networks a{
+	text-decoration: none;
+	color:#ffffff;
+	font-weight: bold;
+	font-size: 15px;
+	margin-left:20px;
+	
+	}
