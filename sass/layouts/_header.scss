@@ -9,9 +9,9 @@
 
 .logo_image{
 	z-index:1;
-	display: block;
+	
 	opacity: 0.8;
 	
-	margin: 0 auto;
+	@include block-center;
 	
 }

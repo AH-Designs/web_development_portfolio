@@ -34,17 +34,29 @@
 
 }
 
-#say_hello{
-	position: relative;
-	top:45px;
-	left:69px;
 
-}
 
 #social_networks{
 	position: relative;
 	top:15px;
+	ul{
+	text-align: right;
+	margin-right: 70px;
+	list-style: none;
+	}
+	a{
+	text-decoration: none;
+	color:$color-highlight;
+	font-weight: bold;
+	font-size: 15px;
+	margin-left:20px;
+	}
 }
+
+
+
+
+
 
 #envelope_icon{
 	font-size: 17px;
@@ -56,31 +68,24 @@ ul li.twitter p{
 	margin-right: -4px;
 }
 
-#say_hello p{
+
+
+
+#say_hello{
+	position: relative;
+	top:45px;
+	left:69px;
+	 p{
 	font-weight: bold;
-	color: #ffffff;
+	color: $color-highlight;
 	font-size:15px;
+	}
 }
 
 .contact_link{
-	color:#ED4A62;
+	color:$color-links;
 	font-size: 15px;
 }
 
-#social_networks ul{
-
-	text-align: right;
-	margin-right: 70px;
-	list-style: none;
-	
-}
 
 
-#social_networks a{
-	text-decoration: none;
-	color:#ffffff;
-	font-weight: bold;
-	font-size: 15px;
-	margin-left:20px;
-	
-	}

@@ -3,25 +3,25 @@
 /*main nav hover styling*/
 nav ul li a:hover{
 	text-decoration: none;
-	border-bottom: solid 3px #ED4A62;
+	border-bottom: solid 3px $color-links;
 }
 
 /*Footer hover styling*/
 .contact_link:hover{
 	text-decoration: none;
-	border-bottom: solid 1px #ffffff;
+	border-bottom: solid 1px $color-highlight;
 	}
 
 #social_networks a:hover.github_text{
-	border-bottom: solid 1px #ED4A62;
+	border-bottom: solid 1px $color-links;
 }
 
 #social_networks a:hover.twitter_text{
-	border-bottom: solid 1px #ED4A62;
+	border-bottom: solid 1px $color-links;
 }
 
 a.mail_to_link{
-	color:#ED4A62; 	
+	color:$color-links; 	
 }
 
  a:hover.mail_to_link{

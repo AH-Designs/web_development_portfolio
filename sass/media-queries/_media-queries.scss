@@ -8,15 +8,12 @@
 	margin-left:25px;
 	margin-right:25px;
 	font-size: 14px;
-	color:#000000;
+	color:$color-main;
 	padding-bottom:5px;
-}
-.navbar-nav li a{
 	text-align: center;
 	font-size: 18px;
 	margin-left:29px;
 	margin-right: 29px;
-	
 	
 }
 
@@ -28,7 +25,7 @@
 	margin-left:25px;
 	margin-right:25px;
 	font-size: 19px;
-	color:#000000;
+	color:$color-main;
 	padding-bottom:5px;
 }
 
@@ -38,11 +35,9 @@
 	margin-left:21px;
 	margin-right:21px;
 	font-size: 15px;
-	color:#000000;
+	color:$color-main;
 	padding-bottom:5px;
 }
-
-
 
 
 		}
@@ -84,17 +79,14 @@
 
 }
 
-#social_networks ul{
-
+#social_networks{
+	 ul{
 	margin-right: 10px;
-		
-}
-
-#social_networks a{
-
-	margin-left:10px;
-	
+		}
+	 a{
+	margin-left:10px;	
 	}
+}
 
 #say_hello{
 	
@@ -157,8 +149,6 @@
 }
 
 
-
-
 										}
 
 
@@ -198,7 +188,7 @@
 	margin-left:11px;
 	margin-right:11px;
 	font-size: 14px;
-	color:#000000;
+	color:$color-main;
 	padding-bottom:5px;
 
 }
@@ -257,8 +247,6 @@
 
 
 
-
-
 .intro_bio {
 	font-weight: bold;
 	margin-bottom:3.5px ;
@@ -279,19 +267,14 @@
 .contact_button{
 	height:40px;
 	width:150px;
-	border:solid 5px #ED4A62;
-	background-color: #ffffff;
-	border-radius: 5px;
+	border:solid 5px $color-links;
+	background-color: $color-highlight;
+	@include roundy(5px);
 	display: block;
-
-
-	
-
-}
-.contact_button h4{
+	 h4{
 	margin:auto;
-	color:#ED4A62;
-
+	color:$color-links;
+	}
 }
 
 
@@ -358,7 +341,7 @@ div.form{
 	height: 30px;
 	width:170px;
 	border:solid 2px #CDD801;
-	background-color: #ffffff;
+	background-color: $color-highlight;
 	margin: 10px;
 	} 
 
@@ -366,7 +349,7 @@ div.form{
 	height: 155px;
 	width:170px;
 	border:solid 2px #CDD801;
-	background-color: #ffffff;
+	background-color: $color-highlight;
 	position: relative;
 	right:25px;
 	position: relative;
@@ -379,10 +362,10 @@ div.form{
 	height:40px;
 	width:140px;
 	margin-top:10px;
-	background-color: #ffffff;
-	border:solid 4px #ED4A62;
-	color:#ED4A62;
-	border-radius: 4px;
+	background-color: $color-highlight;
+	border:solid 4px $color-links;
+	color:$color-links;
+	@include roundy(4px);
 	font-weight: bold;
 } 
 
@@ -405,10 +388,10 @@ div.form{
 	position: relative;
 	top:20px;
 
-	border-left:solid 2px #EF8C30;
-	border-bottom:solid 2px #EF8C30;
-	border-right:solid 2px #EF8C30;
-	border-radius: 2px;
+	border-left:solid 2px $color-headers;
+	border-bottom:solid 2px $color-headers;
+	border-right:solid 2px $color-headers;
+	@include roundy(2px);
 }
 
 

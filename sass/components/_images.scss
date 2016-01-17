@@ -63,8 +63,7 @@ div.note_paper_image {
 	width: 700px;
 	position:relative;
 	bottom:590px;
-	display: block;
-	margin: 0 auto;
+	@include block-center;
 	text-align: center;
 
 

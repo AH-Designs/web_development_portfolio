@@ -1,8 +1,9 @@
 
 /*Full page wrapper*/
+
 .wrapper{
-	width:100%;
-	margin:auto;
+	width: 100%;
+	@include block-center;
 	height:100vh -100px;
 	z-index: -10;
 

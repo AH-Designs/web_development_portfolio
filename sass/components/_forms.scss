@@ -9,37 +9,34 @@
 	z-index: 1;
 	margin-top: 36px;
 	width:280px;
-	font-family: 'Changa One', cursive;
-	margin-left:auto;
-	margin-right:auto;
-	display:block;
-	height: 42px;
-	border-radius: 5px;
+	font-family: $quote-font;
 	
+	@include block-center;
+	height: 42px;
+	@include roundy(5px);
+	a {
+	text-decoration: none;
+	color:blue;
+	}
 }
 
-.skills_crayon_box a {
-	text-decoration: none;
-	color:pink;
-}
 
 /*contact me button in bio*/
 
 .contact_button{
 	height:40px;
 	width:150px;
-	border:solid 5px #ED4A62;
+	border:solid 5px $color-links;
 	background-color: #ffffff;
-	border-radius: 5px;
-	display: block;	
-
+	@include roundy(5px);
+	display: block;
+	h4{
+	margin:0 auto;
+	color:$color-links;
+	display:auto;
+	}
 }
 
-.contact_button h4{
-	margin:auto;
-	color:#ED4A62;
-
-}
 
 /*styling explore buttons*/
 
@@ -48,10 +45,10 @@
 	height:30px;
 	width:130px;
 	
-	background-color: #ffffff;
-	border:solid 3px #ED4A62;
-	color:#ED4A62;
-	border-radius: 3px;
+	background-color: $color-highlight;
+	border:solid 3px $color-links;
+	color:$color-links;
+	@include roundy(3px);
 	font-weight: bold;
 
 }
@@ -74,16 +71,16 @@ label{
 .input_name, .input_email{
 	height: 30px;
 	width:260px;
-	border:solid 2px #CDD801;
-	background-color: #ffffff;
+	border:solid 2px $brighten-yellow;
+	background-color: $color-highlight;
 	margin: 10px;
 	} 
 
 .input_message{
 	height: 175px;
 	width:260px;
-	border:solid 2px #CDD801;
-	background-color: #ffffff;
+	border:solid 2px $brighten-yellow;
+	background-color: $color-highlight;
 	position: relative;
 	right:25;
 	position: relative;
@@ -96,10 +93,10 @@ label{
 	height:40px;
 	width:140px;
 	margin-top:10px;
-	background-color: #ffffff;
-	border:solid 4px #ED4A62;
-	color:#ED4A62;
-	border-radius: 4px;
+	background-color: $color-highlight;
+	border:solid 4px $color-links;
+	color:$color-links;
+	@include roundy(4px);
 	font-weight: bold;
 } 
 
