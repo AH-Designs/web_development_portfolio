@@ -10,7 +10,7 @@
 /*my skills crayon box button*/
 .skills_crayon_box {
   font-size: 27px;
-  background-color: #000;
+  background-color: #ffffff;
   text-align: center;
   z-index: 1;
   margin-top: 36px;
@@ -20,10 +20,10 @@
   margin-right: auto;
   display: block;
   height: 42px;
-  border-radius: 5px; }
+  border-radius: 15px; }
   .skills_crayon_box a {
     text-decoration: none;
-    color: blue; }
+    color: #ED4A62; }
 
 /*contact me button in bio*/
 .contact_button {
