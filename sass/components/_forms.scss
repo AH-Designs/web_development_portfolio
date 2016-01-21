@@ -13,7 +13,7 @@
 	
 	@include block-center;
 	height: 42px;
-	@include roundy(15px);
+	@include roundy(12px);
 	a {
 	text-decoration: none;
 	color:$color-links;
@@ -21,14 +21,35 @@
 }
 
 
+
+.skills_crayon_box:hover {
+	
+	background-color:$color-links;
+	a{
+	color:$color-highlight;	
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*contact me button in bio*/
 
 .contact_button{
 	height:40px;
 	width:150px;
-	border:solid 5px $color-links;
+	border-bottom:solid 4px $color-links;
 	background-color: #ffffff;
-	@include roundy(5px);
+	
 	display: block;
 	h4{
 	margin:0 auto;
@@ -37,6 +58,14 @@
 	}
 }
 
+.contact_button:hover{
+	
+	border-bottom:solid 4px $color-highlight;
+	background-color: $color-links;
+		h4{
+	color: $color-highlight;
+		}
+}
 
 /*styling explore buttons*/
 
@@ -96,9 +125,18 @@ label{
 	background-color: $color-highlight;
 	border:solid 4px $color-links;
 	color:$color-links;
-	@include roundy(4px);
+	@include roundy(9px);
 	font-weight: bold;
 } 
+
+.send_button:hover{
+	color: $color-highlight;
+	border:solid 4px $color-highlight;
+	background-color: $color-links;
+	@include roundy(9px);
+}
+
+
 
 .message_box{
 	position: relative;

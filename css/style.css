@@ -1,11 +1,25 @@
+@charset "UTF-8";
 /*blue gradient background*/
 #blue_gradient {
   background-image: linear-gradient(#429C9D, #ffffff);
   z-index: -2; }
 
+body {
+  font-family: "Lucida Grande", "Tahoma", "Verdana", "Arial", sans-serif; }
+
 /*descriptive color variables*/
 /*function color variables*/
 /*font stacks variables*/
+.box {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-image: url(‘/images/sprite.svg’);
+  z-index: 10;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden; }
+
 /*****************************BUTTON STYLING***********************/
 /*my skills crayon box button*/
 .skills_crayon_box {
@@ -20,23 +34,33 @@
   margin-right: auto;
   display: block;
   height: 42px;
-  border-radius: 15px; }
+  border-radius: 12px; }
   .skills_crayon_box a {
     text-decoration: none;
     color: #ED4A62; }
+
+.skills_crayon_box:hover {
+  background-color: #ED4A62; }
+  .skills_crayon_box:hover a {
+    color: #ffffff; }
 
 /*contact me button in bio*/
 .contact_button {
   height: 40px;
   width: 150px;
-  border: solid 5px #ED4A62;
+  border-bottom: solid 4px #ED4A62;
   background-color: #ffffff;
-  border-radius: 5px;
   display: block; }
   .contact_button h4 {
     margin: 0 auto;
     color: #ED4A62;
     display: auto; }
+
+.contact_button:hover {
+  border-bottom: solid 4px #ffffff;
+  background-color: #ED4A62; }
+  .contact_button:hover h4 {
+    color: #ffffff; }
 
 /*styling explore buttons*/
 .explore_button {
@@ -83,8 +107,14 @@ label {
   background-color: #ffffff;
   border: solid 4px #ED4A62;
   color: #ED4A62;
-  border-radius: 4px;
+  border-radius: 9px;
   font-weight: bold; }
+
+.send_button:hover {
+  color: #ffffff;
+  border: solid 4px #ffffff;
+  background-color: #ED4A62;
+  border-radius: 9px; }
 
 .message_box {
   position: relative;
@@ -113,7 +143,7 @@ label {
 
 /*bio image*/
 .bio_image {
-  background-image: url("../../images/bio_image.png");
+  background-image: url("../images/bio_image.png");
   z-index: 5;
   background-repeat: no-repeat; }
 
@@ -132,7 +162,7 @@ div.arrow_div {
 
 /*contact form paper image*/
 div.note_paper_image {
-  background-image: url("../..//images/paper1.png");
+  background-image: url("../images/paper1.png");
   background-repeat: no-repeat;
   z-index: 5;
   height: 500px;
@@ -291,7 +321,7 @@ p.quote2 {
   flex-self: center; }
 
 .bio_flex_item2 {
-  background-image: url("images/pinned.png");
+  background-image: url("../images/pinned.png");
   background-repeat: no-repeat; }
 
 /*flex container button bio...contact me button*/
@@ -455,7 +485,7 @@ a:hover.mail_to_link {
 a:hover.image_link {
   text-decoration: none; }
 
-s
+/*Main section on index.html*/
 .main_welcome {
   height: 680px;
   position: relative;
@@ -596,13 +626,13 @@ s
   /*About me section*/
   /*FLEXBOX ABOUT_ME*/
   .bio_flex_item2 {
-    background-image: url("images/pinned2.png");
+    background-image: url("../images/pinned2.png");
     width: 400px;
     margin-left: auto;
     margin-right: auto; }
 
   .bio_image {
-    background-image: url("images/bio_image2.png");
+    background-image: url("../images/bio_image2.png");
     width: 400px;
     margin-left: auto;
     margin-right: auto; }
@@ -641,7 +671,7 @@ s
     width: 370px; }
 
   div.note_paper_image {
-    background-image: url("images/paper2.png");
+    background-image: url("../images/paper2.png");
     height: 500px;
     width: 410px;
     position: relative;
