@@ -6,7 +6,9 @@
 	height: 680px;
 	position: relative;
 	bottom:100px;
-
+	background-image:url("../images/large-crayons.jpg");
+	background-repeat:no-repeat;
+	background-size: 0 100%; 
 }
 
 
@@ -17,7 +19,7 @@
 	min-width:100%;
 	height:680px;
 	position:relative;
-	bottom:60px;
+	bottom:40px;
 	display: block;
 }
 

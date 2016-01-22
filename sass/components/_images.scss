@@ -1,26 +1,19 @@
 /*main image*/
 
-#main_crayons_image{
-	width:100%;
-	height:680px;
+section.main_crayons_image{
+	max-width:100%;
+	height:660px;
 	position:relative;
-	top:71px;
+	top:-20px;
 	display: block;
 	z-index: -2;
+	background-image:url("../images/large-crayons.jpg");
+	background-repeat:no-repeat;
+	background-size: cover; 
 }
 
-/*portfolio_crayon_image_reposition*/
 
-#main_crayons_image1{
-	position: relative;
-	bottom:20px;
-	width:100%;
-	height:680px;
-	position:relative;
-	top:-30px;
-	display: block;
-	z-index: -2;
-}
+
 
 
 
@@ -40,7 +33,7 @@ div.arrow_div{
 	display:block;
 	width:100%;
 	position: relative;
-	bottom:360px;
+	bottom:-270px;
 }
 
 .arrow_div img{
@@ -62,7 +55,7 @@ div.note_paper_image {
 	height:500px;
 	width: 700px;
 	position:relative;
-	bottom:590px;
+	bottom:-30px;
 	@include block-center;
 	text-align: center;
 

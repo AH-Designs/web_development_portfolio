@@ -32,3 +32,12 @@ a.mail_to_link{
 a:hover.image_link{
 	text-decoration: none;
 }
+
+/*contact form*/
+
+.send_button:hover{
+	color: $color-highlight;
+	border:solid 4px $color-highlight;
+	background-color: $color-links;
+	@include roundy(9px);
+}

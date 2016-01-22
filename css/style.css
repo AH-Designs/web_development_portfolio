@@ -1,24 +1,19 @@
-@charset "UTF-8";
 /*blue gradient background*/
 #blue_gradient {
   background-image: linear-gradient(#429C9D, #ffffff);
-  z-index: -2; }
+  z-index: -10; }
 
 body {
-  font-family: "Lucida Grande", "Tahoma", "Verdana", "Arial", sans-serif; }
+  font-family: "Lucida Grande", "Tahoma", "Verdana", "Arial", sans-serif;
+  width: 100%;
+  margin-bottom: 0; }
 
 /*descriptive color variables*/
 /*function color variables*/
 /*font stacks variables*/
-.box {
-  display: block;
-  width: 50px;
-  height: 50px;
-  background-image: url(‘/images/sprite.svg’);
-  z-index: 10;
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden; }
+.shape {
+  width: 200px;
+  height: 200px; }
 
 /*****************************BUTTON STYLING***********************/
 /*my skills crayon box button*/
@@ -122,24 +117,16 @@ label {
   right: 26px; }
 
 /*main image*/
-#main_crayons_image {
-  width: 100%;
-  height: 680px;
+section.main_crayons_image {
+  max-width: 100%;
+  height: 660px;
   position: relative;
-  top: 71px;
+  top: -20px;
   display: block;
-  z-index: -2; }
-
-/*portfolio_crayon_image_reposition*/
-#main_crayons_image1 {
-  position: relative;
-  bottom: 20px;
-  width: 100%;
-  height: 680px;
-  position: relative;
-  top: -30px;
-  display: block;
-  z-index: -2; }
+  z-index: -2;
+  background-image: url("../images/large-crayons.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 /*bio image*/
 .bio_image {
@@ -154,7 +141,7 @@ div.arrow_div {
   display: block;
   width: 100%;
   position: relative;
-  bottom: 360px; }
+  bottom: -270px; }
 
 .arrow_div img {
   z-index: 5;
@@ -168,7 +155,7 @@ div.note_paper_image {
   height: 500px;
   width: 700px;
   position: relative;
-  bottom: 590px;
+  bottom: -30px;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -249,14 +236,15 @@ div.portfolio_quote_div1 {
   text-align: center;
   display: block;
   position: relative;
-  bottom: 450px; }
+  top: 170px; }
 
 div.portfolio_quote_div2 {
   width: 100%;
   text-align: center;
   display: block;
   position: relative;
-  bottom: 180px; }
+  top: 510px;
+  z-index: 9; }
 
 p.quote1 {
   color: #ffffff;
@@ -284,17 +272,17 @@ p.quote2 {
 /*contact form header.. say hello*/
 .say_hello {
   position: relative;
-  bottom: 1200px;
-  z-index: 6; }
+  bottom: -30px;
+  z-index: 9; }
 
 /*Full page wrapper*/
-.wrapper {
-  width: 100%;
+div.wrapper {
+  min-width: 100%;
   margin-left: auto;
   margin-right: auto;
   display: block;
   height: 100vh -100px;
-  z-index: -10; }
+  z-index: -50; }
 
 /*main nav-bar container*/
 .nav_container {
@@ -365,16 +353,22 @@ p.quote2 {
   bottom: 0px;
   background-color: black;
   height: 150px;
-  z-index: 10; }
+  z-index: 10;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: -20px; }
 
 .portfolio_footer {
   position: relative;
   top: 270px;
-  background-color: blue;
+  background-color: black;
+  width: 100%;
   z-index: 10;
   height: 150px;
   z-index: 10;
-  position: relative; }
+  position: relative;
+  margin-left: 0;
+  margin-right: 0; }
 
 #social_networks {
   position: relative;
@@ -413,7 +407,7 @@ ul li.twitter p {
 .logo_div {
   z-index: 1;
   position: relative;
-  bottom: 500px; }
+  bottom: -60px; }
 
 .logo_image {
   z-index: 1;
@@ -485,18 +479,28 @@ a:hover.mail_to_link {
 a:hover.image_link {
   text-decoration: none; }
 
+/*contact form*/
+.send_button:hover {
+  color: #ffffff;
+  border: solid 4px #ffffff;
+  background-color: #ED4A62;
+  border-radius: 9px; }
+
 /*Main section on index.html*/
 .main_welcome {
   height: 680px;
   position: relative;
-  bottom: 100px; }
+  bottom: 100px;
+  background-image: url("../images/large-crayons.jpg");
+  background-repeat: no-repeat;
+  background-size: 0 100%; }
 
 /*About me section*/
 .about_me {
   min-width: 100%;
   height: 680px;
   position: relative;
-  bottom: 60px;
+  bottom: 40px;
   display: block; }
 
 /*intro portfolio section... where my quotes are*/
@@ -608,6 +612,28 @@ a:hover.image_link {
     font-size: 14px;
     color: #000000;
     padding-bottom: 5px; } }
+@media screen and (max-width: 1093px) and (max-width: 960px) {
+  section.main_crayons_image {
+    max-width: 100%;
+    height: 680px;
+    position: relative;
+    top: -20px;
+    display: block;
+    z-index: -2;
+    background-image: url("../images/large-crayons2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; } }
+@media screen and (max-width: 1093px) and (max-width: 995px) {
+  section.main_crayons_image {
+    max-width: 100%;
+    height: 680px;
+    position: relative;
+    top: -20px;
+    display: block;
+    z-index: -2;
+    background-image: url("../images/large-crayons3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; } }
 @media screen and (max-width: 1093px) and (max-width: 745px) {
   /*Postioning my portflio on smaller devices*/
   .portfolio {
@@ -675,7 +701,7 @@ a:hover.image_link {
     height: 500px;
     width: 410px;
     position: relative;
-    bottom: 590px;
+    bottom: -50px;
     display: block;
     margin: 0 auto;
     text-align: center;
@@ -683,7 +709,7 @@ a:hover.image_link {
 
   .say_hello {
     position: relative;
-    bottom: 1200px;
+    bottom: -30px;
     z-index: 6; }
 
   /*styling my form*/
@@ -759,6 +785,17 @@ a:hover.image_link {
 
   .twitter_icon {
     padding-right: 15px; } }
+@media screen and (max-width: 600px) {
+  section.main_crayons_image {
+    max-width: 100%;
+    height: 680px;
+    position: relative;
+    top: -20px;
+    display: block;
+    z-index: -2;
+    background-image: url("../images/large-crayons4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; } }
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
